@@ -13,6 +13,26 @@ export const {
   theme: {
     colors: {
       'black-pearl': '#06202A',
+      text: '#D1D5DB',
+    },
+    sizes: {
+      1: '0.25rem',
+      2: '0.5rem',
+      8: '2rem',
+      12: '3rem',
+      20: '5rem',
+      '2xl': '45rem',
+    },
+    space: {
+      1: '0.25rem',
+      2: '0.5rem',
+      5: '1.25rem',
+    },
+    lineHeights: {
+      normal: 1.5,
+    },
+    letterSpacings: {
+      'tracking-widest': '0.1em',
     },
   },
   media: {
@@ -25,5 +45,10 @@ export const {
 
 export const globalStyles = globalCss({
   '*': { margin: 0, padding: 0, boxSizing: 'border-box' },
-  body: { fontFamily: 'ui-sans-serif, system-ui' },
+  body: {
+    fontFamily: 'ui-sans-serif, system-ui',
+    backgroundColor: '$black-pearl',
+    color: '$text',
+    lineHeight: '$normal',
+  },
 })
