@@ -19,10 +19,12 @@ export const {
     sizes: {
       1: '0.25rem',
       2: '0.5rem',
+      5: '1.25rem',
       8: '2rem',
       12: '3rem',
       16: '4rem',
       20: '5rem',
+      md: '28rem',
       '2xl': '45rem',
       '1-12': '8.333333%',
     },
@@ -55,6 +57,14 @@ export const {
     paddingX: (value: string | number) => ({
       paddingLeft: value,
       paddingRight: value,
+    }),
+    marginX: (value: string | number) => ({
+      marginLeft: value,
+      marginRight: value,
+    }),
+    marginY: (value: string | number) => ({
+      marginTop: value,
+      marginBottom: value,
     }),
   },
 })
