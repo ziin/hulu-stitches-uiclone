@@ -45,5 +45,5 @@ export const FadeBlock = styled('div', {
   right: 0,
   height: '$16',
   width: '$1-12',
-  background: 'linear-gradient(90deg, transparent 0%, $black-pearl 100%)',
+  backgroundImage: 'linear-gradient(to left, $black-pearl, rgba(6, 32, 42, 0))',
 })
